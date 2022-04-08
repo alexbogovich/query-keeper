@@ -1,0 +1,27 @@
+{
+  "name": "query-keeper",
+  "version": "0.0.1-alpha.8",
+  "description": "keep your query in place",
+  "main": "dist/query-keeper.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbogovich/query-keeper.git"
+  },
+  "author": "Alex Bogovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbogovich/query-keeper/issues"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "homepage": "https://github.com/alexbogovich/query-keeper#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
